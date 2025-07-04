@@ -13,7 +13,7 @@ public class ClipBelegung implements Serializable{
 	}
 	
 	public String[] getPaths() {
-		return paths;
+		return paths.clone();
 	}
 	
 	
